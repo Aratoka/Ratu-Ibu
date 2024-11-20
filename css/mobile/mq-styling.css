@@ -1,0 +1,53 @@
+@media only screen and (max-width: 900px) {
+  .history-body {
+    opacity: 1;
+  }
+  .history-text {
+    font-size: 1rem;
+    font-family: montserrat;
+    margin-top: 1.2rem;
+  }
+  
+  .history-body .op {
+    aspect-ratio: 16/9;
+    width: 360px;
+  }
+  
+  .history-body .var1 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+  
+  .tempus {
+    color: rgb(160, 160, 160);
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: inter;
+    font-size: 0.7rem;
+  }
+  .locus {
+    color: rgb(160, 160, 160);
+    font-size: 0.7rem;
+  }
+  
+  .rato-ebhu {
+    font-weight: 700;
+    font-family: 2rem;
+  }
+  .history-body .img-feeder {
+    aspect-ratio: 16/9;
+    width: 360px;
+  }
+  
+  .history-body .img-feeder-container {
+    /*width: 960px;*/
+    margin-top: 0.7rem;
+    display: flex;
+    flex: 1;
+    place-content: center;
+  }
+
+  iframe {
+    width: 360px;
+  }
+}

@@ -1,0 +1,97 @@
+@media only screen and (max-width: 900px) {
+  .gradientheader {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0.738) 19%, rgba(255, 255, 255, 0.541) 34%, rgba(255, 255, 255, 0.382) 47%, rgba(255, 255, 255, 0.278) 56.5%, rgba(255, 255, 255, 0.194) 65%, rgba(255, 255, 255, 0.126) 73%, rgba(255, 255, 255, 0.075) 80.2%, rgba(255, 255, 255, 0.042) 86.1%, rgba(255, 255, 255, 0.021) 91%, rgba(255, 255, 255, 0.008) 95.2%, rgba(255, 255, 255, 0.002) 98.2%, transparent 100%);
+  }
+  
+  nav {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    width: 360px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem 0;
+    border-bottom: solid 1px #4d4d4d;
+    background-color: #fff;
+    backdrop-filter: blur(10px);
+  }
+  
+  nav a {
+    display: none;
+    font-family: inter, arial;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-decoration: underline 0rem rgba(0, 0, 0, 0);
+    text-underline-offset: 0.55rem;
+  
+    transition: all 250ms;
+  }
+  nav a:hover {
+    text-decoration: underline 0.08rem #000;
+    font-weight: 700;
+    font-size: 0.86rem;
+  }
+  nav a:active {
+    color: #fff;
+    transition-delay: 1s;
+  }
+  
+  .logotype {
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #000;
+    margin-left: 10px;
+  }
+  .nav-container {
+    display: flex;
+    margin-right: 10px;
+  }
+  .nav-container a {
+    margin-left: 3rem;
+    font-size: 0.8rem;
+  }
+  
+  footer {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 50px;
+    width: 360px;
+    border-top: solid 1px #4d4d4d;
+  }
+  
+  .footer-logo-container {
+    margin-top: 20px;
+  }
+  
+  .footer-logo-1 {
+    filter: grayscale();
+    width: 60px;
+    transition: all 250ms;
+  }
+  
+  .footer-logo-1:hover {
+    filter: none;
+  }
+  
+  .footer-logo-2 {
+    filter: grayscale();
+    width: 80px;
+    transition: all 250ms;
+  }
+  
+  .footer-logo-2:hover {
+    filter: none;
+  }
+  
+}

@@ -1,0 +1,54 @@
+.history-body {
+  opacity: 1;
+}
+.history-text {
+  font-size: 1.2rem;
+  font-family: montserrat;
+  margin-top: 1.2rem;
+}
+
+.history-body .op {
+  aspect-ratio: 16/9;
+  width: 960px;
+}
+
+.history-body .var1 {
+  text-align: center;
+}
+
+.tempus {
+  color: rgb(160, 160, 160);
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: inter;
+}
+.locus {
+  color: rgb(160, 160, 160);
+}
+
+.rato-ebhu {
+  font-weight: 700;
+  font-family: 2rem;
+}
+.history-body .img-feeder {
+  aspect-ratio: 16/9;
+  width: 600px;
+}
+
+.history-body .img-feeder-container {
+  /*width: 960px;*/
+  margin-top: 1.8rem;
+  display: flex;
+  flex: 1;
+  place-content: center;
+}
+
+.feeder-p {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.embeded-map {
+  display: flex;
+  place-content: center;
+}
