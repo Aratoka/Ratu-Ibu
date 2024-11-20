@@ -10,7 +10,7 @@
   
   .history-body .op {
     aspect-ratio: 16/9;
-    width: 360px;
+    width: 320px;
   }
   
   .history-body .var1 {
@@ -36,7 +36,7 @@
   }
   .history-body .img-feeder {
     aspect-ratio: 16/9;
-    width: 360px;
+    width: 320px;
   }
   
   .history-body .img-feeder-container {
@@ -48,6 +48,6 @@
   }
 
   iframe {
-    width: 360px;
+    width: 320px;
   }
 }
